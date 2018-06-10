@@ -1,0 +1,7 @@
+<h1><%= @note.subject %></h1>
+<p><%= @note.body %></p>
+
+<ul>
+  <li><%= link_to('Edit Note', edit_note_path(@note)) %></li>
+  <li><%= link_to 'Delete', @note, method: :delete, data: { confirm: 'Click "OK" to proceed.' } %></li>
+</ul>
