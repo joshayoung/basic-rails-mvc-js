@@ -1,24 +1,3 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This post outlines the steps necessary to setup a basic rails MVC setup. The accompanying blog post is recorded here: <a href='http://joshyoung.me/2018/basic-rails-mvc-setup/'>joshyoung.me/2018/basic-rails-mvc-setup/</a>.
