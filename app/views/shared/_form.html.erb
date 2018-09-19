@@ -1,4 +1,4 @@
-<%= simple_form_for @note, remote: true do |f| %>
+<%= simple_form_for @note, method: :post, remote: true, input_html: {multipart: true} do |f| %>
   <%= f.input :subject, label: 'Subject' %>
   <%= f.input :body, label: 'Body' %>
   <%= f.button :submit %>

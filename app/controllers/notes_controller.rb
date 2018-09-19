@@ -6,7 +6,7 @@ class NotesController < ApplicationController
   def create
     @note = Note.new(subject: params[:note][:subject], body: params[:note][:body])
     if @note.save
-      redirect_to notes_url
+      render json: @note
     else
       render :new
     end
