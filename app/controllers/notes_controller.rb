@@ -16,6 +16,14 @@ class NotesController < ApplicationController
     @note = Note.new
   end
 
+  def new_js
+    @note = Note.new
+  end
+
+  def new_js_inj
+    @note = Note.new
+  end
+
   def edit
     @note = Note.find_by(id: params[:id])
   end
